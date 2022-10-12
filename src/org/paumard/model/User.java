@@ -14,6 +14,16 @@ public class User {
     }
 
 
+    public User() {
+        super();
+    }
+
+    public User(String name, int age) {
+        super();
+        this.name = name;
+        this.age = age;
+    }
+
     public int getAge() {
         return age;
     }
